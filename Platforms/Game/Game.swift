@@ -11,10 +11,10 @@ struct Game: Hashable {
     let name: String
     let rating: String
     
-    static let examples = [
-        Self.init(name: "FIFA", rating: "45"),
-        Self.init(name: "Minecraft", rating: "90"),
-        Self.init(name: "League of Legends", rating: "95"),
-        Self.init(name: "Diablo 4", rating: "85")
+    static let examples: [Game] = [
+        .init(name: "FIFA", rating: "45"),
+        .init(name: "Minecraft", rating: "90"),
+        .init(name: "League of Legends", rating: "95"),
+        .init(name: "Diablo 4", rating: "85")
     ]
 }

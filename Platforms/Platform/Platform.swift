@@ -12,10 +12,10 @@ struct Platform: Hashable {
     let imageName: String
     let color: Color
     
-    static let examples = [
-        Self.init(name: "Xbox", imageName: "xbox.logo", color: .green),
-        Self.init(name: "Playstation", imageName: "playstation.logo", color: .indigo),
-        Self.init(name: "PC", imageName: "pc", color: .pink),
-        Self.init(name: "Mobile", imageName: "iphone", color: .mint)
+    static let examples: [Platform] = [
+        .init(name: "Xbox", imageName: "xbox.logo", color: .green),
+        .init(name: "Playstation", imageName: "playstation.logo", color: .indigo),
+        .init(name: "PC", imageName: "pc", color: .pink),
+        .init(name: "Mobile", imageName: "iphone", color: .mint)
     ]
 }
